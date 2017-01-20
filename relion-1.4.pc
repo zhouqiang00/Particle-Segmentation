@@ -1,0 +1,11 @@
+prefix=/home/zhouqiang/softwares/relion-1.4-seg
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: relion
+Description: relion C++ library.
+Version: 1.4
+URL: @PACKAGE_URL@
+Libs: -L${libdir} -lrelion-1.4
+Cflags: -I${includedir}/relion-1.4 -I${libdir}/relion-1.4/include
