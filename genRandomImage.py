@@ -1,6 +1,6 @@
 #!/usr/local/EMAN2/extlib/bin/python
 #
-# Author: Qiang Zhou, 1/24/2017 (zhouqiang00@tsinghua.org.cn)
+# Author: Qiang Zhou (zhouqiang00@tsinghua.org.cn)
 # School of Life Sciences, Tsinghua University, Beijing, China
 #
 # This program is free software; you can redistribute it and/or modify
