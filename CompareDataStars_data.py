@@ -137,7 +137,8 @@ def main():
 	{prog} < --input_data_star1 data1.star> < --input_data_star2 temp_data2.star  > < -o output file >  --calculateEulerTransform --sameImageName
 
 	# Transform euler angle of particles against to a rotated or flipped ref:
-	{prog} < --input_data_star1 data1.star> < -o output star file >  < --TransformEuler > < [ --target_rot --target_tilt --target_psi  ] | [ --target_emanaz --target_emanalt --target_emanphi ] | [ --flipX | --flipY | --flipZ ]>
+	{prog} < --input_data_star1 data1.star> < -o output star file >  < --TransformEuler > < [ --target_rot --target_tilt 
+	--target_psi  ] | [ --target_emanaz --target_emanalt --target_emanphi ] | [ --flipX | --flipY | --flipZ ]>
 	""".format(prog=prog_name)
 	optParser= OptionParser(usage)
 	optParser.add_option("--input_data_star1",action="store",type="str",dest="input_data_star1",default="",help="Input relion data.star file #1. [default: %default]")
