@@ -286,7 +286,7 @@ def main():
 		TE=Transform()
 		do_flip=False
 		if (options.target_rot != 0 or options.target_tilt != 0 or options.target_psi != 0):
-			TE.set_rotation({'type':spider,'phi':options.target_rot,'theta':options.target_tilt,'psi':options.target_psi })
+			TE.set_rotation({'type':"spider",'phi':options.target_rot,'theta':options.target_tilt,'psi':options.target_psi })
 		elif (options.target_emanaz != 0 or options.target_emanalt != 0 or options.target_emanphi != 0) :
 			TE.set_rotation({'type':"eman",'az':options.target_emanaz,'alt':options.target_emanalt,'phi':options.target_emanphi })
 		elif (options.flipX or options.flipY or options.flipZ):
